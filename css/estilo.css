@@ -1,0 +1,75 @@
+
+/******************************GERAL********************************/
+
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+h1{
+    font-weight: 900;
+    letter-spacing:  -0.05em;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.navbar {
+
+    border: 2px solid red;
+
+}
+nav.navbar-transparent{
+
+    padding: 15px 0px;
+    background: rgba(0,0,0,.6); 
+
+}
+
+.imagem{
+
+    border: 1px solid red;
+
+}
+
+.skills{       
+    width: 50%;
+    padding: 0 80px;
+    color: black;
+    text-align: left;
+}
+
+.skill-name{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar{
+    height: 20px;
+    background: #cacaca;
+    border-radius: 8px;  
+}
+
+.skill-per{
+    height: 20px;
+    background-color: #0fbcf9;
+    border-radius: 8px;
+    width: 50%;
+    position: relative;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -30px;
+    right: 0;
+    transform: translate(50%);
+}
+
