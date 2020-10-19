@@ -17,8 +17,12 @@ h1{
 .navbar {
 
     border: 2px solid red;
-
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.986);
+}
+
 nav.navbar-transparent{
 
     padding: 15px 0px;
@@ -32,3 +36,22 @@ nav.navbar-transparent{
 
 }
 
+/************************************RESUMO*********************************************/
+
+.sobre{
+
+    margin-top: 45px;
+
+}
+
+
+/********************************ICONES***********************************************/
+.fab{
+
+    
+    font-size: 2em;
+    margin: 10px 20px;
+    margin-left: 6px;
+    color: #666666;
+
+}
