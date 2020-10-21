@@ -36,6 +36,13 @@ nav.navbar-transparent{
 
 }
 
+#home{
+
+    overflow-y: hidden;
+
+}
+
+
 /************************************RESUMO*********************************************/
 
 .sobre{
@@ -55,3 +62,4 @@ nav.navbar-transparent{
     color: #666666;
 
 }
+
