@@ -14,11 +14,6 @@ h1{
     color: black;
 }
 
-.navbar {
-
-    border: 2px solid red;
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.986);
 }
@@ -30,9 +25,10 @@ nav.navbar-transparent{
 
 }
 
-.imagem{
+.navbar-light .navbar-toggler{
 
-    border: 1px solid red;
+    color: white;
+    border-color: white;
 
 }
 
