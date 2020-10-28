@@ -35,9 +35,9 @@ nav.navbar-transparent{
 #home{
 
     overflow-y: hidden;
-
+    background: cornflowerblue;
+    
 }
-
 
 /************************************RESUMO*********************************************/
 
@@ -49,13 +49,14 @@ nav.navbar-transparent{
 
 
 /********************************ICONES***********************************************/
-.fab{
 
+.fab{
+    
     
     font-size: 2em;
     margin: 10px 20px;
     margin-left: 6px;
-    color: #666666;
+    color: black;
 
 }
 
