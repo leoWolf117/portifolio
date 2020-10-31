@@ -35,7 +35,7 @@ nav.navbar-transparent{
 #home{
 
     overflow-y: hidden;
-    background: cornflowerblue;
+    background: #CEE3F6;
     
 }
 
@@ -60,3 +60,40 @@ nav.navbar-transparent{
 
 }
 
+/********************************PREMIOS***********************************************/
+
+#hab{
+    padding: 40px;
+}
+
+/***********************************PREMIOS*************************************************/
+
+
+
+
+
+/********************************EXPERIENCIAS***********************************************/
+
+#exper{
+
+    background: #0A0A2A;
+    height: 100%;
+
+}
+
+.experiencia {
+    color: #fff;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+/********************************RODAPE**********************************************/
+
+#rodape{
+
+    background: #000;
+    color: #fff;
+    padding: 30px 30px;
+}
