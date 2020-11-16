@@ -15,19 +15,19 @@ h1{
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.986);
+    color: rgba(0, 0, 0, 0.986);
 }
 
 nav.navbar-transparent{
 
     padding: 15px 0px;
-    background: rgba(0,0,0,.6); 
+    background: rgba(253, 253, 253, 0.959); 
 
 }
 
 .navbar-light .navbar-toggler{
 
-    color: white;
+    color: #000;
     border-color: white;
 
 }
@@ -35,16 +35,25 @@ nav.navbar-transparent{
 #home{
 
     overflow-y: hidden;
-    background: #CEE3F6;
+
     
 }
 
-/************************************RESUMO*********************************************/
 
-.sobre{
+.capa{
+    top: 200px;
+    text-align: center;
+    
+}
 
-    margin-top: 45px;
+/*************************************ABERTURA*******************************************/
 
+.abertura{
+
+    background: white;
+    height: 600px;
+    align-self: center;
+    position: relative;
 }
 
 
@@ -70,6 +79,27 @@ nav.navbar-transparent{
     padding: 20px;
 }
 
+.heading{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.resume-wrap{
+    margin-left: 60px;
+    width: 85%;
+    margin-bottom: 35px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.data{
+    color: blue;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 .icone-trofeu{
     align-self: center;
 }
@@ -79,6 +109,29 @@ nav.navbar-transparent{
     background: rgb(135, 99, 219);
     border-radius: 25px;
     padding: 10px;
+}
+
+.resume-wrap .position {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.resume-wrap, h2{
+    color: #000000;
+}
+
+.ftco-animate {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.float-right{    
+   float: right;
+}
+
+.font-italic{
+    font-style: italic;
 }
 
 /********************************EXPERIENCIAS***********************************************/
@@ -97,6 +150,16 @@ nav.navbar-transparent{
     text-align: center;
 
 }
+/********************************CONTATO**********************************************/
+
+.card{
+    
+    align-self: center;
+    width: 18rem;
+
+}
+
+
 
 /********************************RODAPE**********************************************/
 
