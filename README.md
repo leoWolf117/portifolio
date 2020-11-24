@@ -1,2 +1,2 @@
 # portifolio
-portifolio, para projetos pessoas e freelas 
+portifolio, para projetos pessoais e freela
