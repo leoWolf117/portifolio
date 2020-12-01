@@ -4,6 +4,7 @@
 html, body, #home {
     height: 100%;
     overflow-x: hidden;
+
 }
 
 
@@ -50,10 +51,43 @@ nav.navbar-transparent{
 
 .abertura{
 
-    background: white;
-    height: 600px;
+    background: black;
+    height: 100%;
     align-self: center;
     position: relative;
+}
+
+.neon-1{
+
+    color: #fff;
+    text-shadow: 0 0 20px red;
+
+}
+
+.neon-1:after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: red;
+    filter: blur(15px);
+}
+
+.neon-1:before{
+
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe3a80;
+    z-index: -2;
+    opacity: .5;
+    filter: blur(40px);
+
 }
 
 
