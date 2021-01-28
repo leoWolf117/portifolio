@@ -169,31 +169,42 @@ nav.navbar-transparent{
     text-align: center;
 
 }
-/********************************CONTATO**********************************************/
-.card, h2{
+/**************************************CONTATO**********************************************/
+
+
+.card-1, .card-2{
+
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 278px;
+    width: 406px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+.card-1{
+    position: relative;
+    left: 50px;
+}
+
+.card-2{
+    position: relative;
+    right: 35px;
+}
+
+.card-1, .card-2, a{
+
+    padding-top: 200;
     text-align: center;
+    color: #000;
+    align-self:  2px;
 }
 
-.card{
-    
-    border: solid 1px red;
-    top: 50px;
-    height: 300px;
-    width: 150px;
-    width: 18em;
-    padding-left: 100px;
+.card-1, .card-2, a:hover{
+
+    color: #000;
+
 }
 
-.card, .fas{
-    text-align: center;
-}
+/***************************************RODAPE**********************************************/
 
-
-/********************************RODAPE**********************************************/
-
-#rodape{
-
-    background: #000;
-    color: #fff;
-    padding: 30px 30px;
-}
