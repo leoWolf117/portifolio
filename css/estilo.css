@@ -87,6 +87,18 @@ nav.navbar-transparent{
     color: black;
 
 }
+
+/***********************************************PAGINAS***********************************************************/
+
+.pag_one, .pag_two, .pag_three, .pag_four, .pag_five, .pag_six{
+
+    margin-bottom: 40px;
+    padding: 40px;
+
+}
+
+
+
 /***********************************PREMIOS*************************************************/
 #pag-1, .pag_one{
     margin-left: 15px;
