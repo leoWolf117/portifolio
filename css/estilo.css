@@ -204,9 +204,16 @@ nav.navbar-transparent{
     right: 35px;
 }
 
-.card-1, .card-2, a{
+.card-1, .card-2,img{
 
-    padding-top: 200;
+    padding-top: 20px;
+    text-align: center;
+    align-self:  2px;
+}
+
+.card-1, .card-2,a{
+
+    padding-top: 25px;
     text-align: center;
     color: #000;
     align-self:  2px;
