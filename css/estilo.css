@@ -166,6 +166,11 @@ nav.navbar-transparent{
 
 /***************************************************************PROJETOS***********************************************************************/
 
+.img-proj{
+
+    height: 200px;
+
+}
 
 
 .titulo-proj{
@@ -175,17 +180,24 @@ nav.navbar-transparent{
 
 .carousel-control-next, .carousel-control-prev{
 
-    width: 5%;
+    width: 5%;    
 
 }
 
+.carousel-item img{
+    width: 100%;
+}
+
+.info{
+
+    
+}
 
 /********************************************************************CONTATO******************************************************************/
 
 
 .card-email{
     left: 50;
-    margin-bottom: 25;
 }
 
 .card-link{
