@@ -165,33 +165,12 @@ nav.navbar-transparent{
 }
 
 /***************************************************************PROJETOS***********************************************************************/
+.pag_4{
 
-.img-proj{
-
-    height: 200px;
-
-}
-
-
-.titulo-proj{
-    text-align: center;
-    font-size: 3em;
-}
-
-.carousel-control-next, .carousel-control-prev{
-
-    width: 5%;    
+    padding: 40px;
 
 }
 
-.carousel-item img{
-    width: 100%;
-}
-
-.info{
-
-    
-}
 
 /********************************************************************CONTATO******************************************************************/
 
