@@ -3,7 +3,6 @@
 
 html, body, #home {
     height: 100%;
-    overflow-x: hidden;
 
 }
 
@@ -15,25 +14,34 @@ h1{
     color: black;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, 0.986);
+.navbar{
+    background: rgba(0, 0, 0, 0.61); 
 }
 
-
-
-
-nav.navbar-transparent{
-
+.nav .navbar-transparente{
     padding: 15px 0px;
-    background: rgba(253, 253, 253, 0.959); 
+    background: rgba(0, 0, 0, 0.61); 
+}
 
+.navbar-light .navbar-nav .nav-link {
+ color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+ color: #9bf0e1;
 }
 
 .navbar-light .navbar-toggler{
 
-    color: #000;
-    border-color: white;
+ color: white;
+ border-color: white;
 
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
 }
 
 #home{
@@ -52,19 +60,43 @@ nav.navbar-transparent{
 
 /*****************************************************************ABERTURA**********************************************************************************/
 
+
 .abertura{
 
-    height: 100%;
+    height: 635px;
     align-self: center;
     position: relative;
+    color: rgba(253, 253, 253, 0.959);
 }
 
+.inicio{
+    background: rgba(21, 22, 29, 0.973);
+}
+
+.info{
+    color: #2196f3;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 14px;
+    overflow: hidden;
+    text-shadow: 1px 1px 5px rgb(40, 120, 224);
+}
+
+.present{
+
+    border: 1px solid rgba(39, 44, 71, 0.973);
+    border-radius: 20px;
+    box-shadow: 16px 9px 1px 1px;
+    padding: 10px;
+
+}
 /*******************************************************************ICONES**********************************************************************************/
 
 .fab{
     
     font-size: 2em;
-    margin: 10px 20px;
+    margin: 10px 4px;
     margin-left: 6px;
     color: black;
 
@@ -186,3 +218,40 @@ padding: 25px;
 
 /**********************************************************************RODAPE********************************************************************/
 
+.contact{
+
+    padding: 100px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+
+.cont{
+    
+    position: relative;
+    align-self: center;
+    
+}
+
+.cont-numb{
+    padding-bottom: 25px;
+}   
+
+.fa-phone{
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    top: 27px;
+
+}
+
+.fa-envelope{
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    top: 27px;
+}
+
+.cont-mail{
+
+}
