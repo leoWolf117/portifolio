@@ -3,7 +3,8 @@
 
 html, body, #home {
     height: 100%;
-
+    overflow-x: hidden;
+    
 }
 
 
@@ -15,7 +16,8 @@ h1{
 }
 
 .navbar{
-    background: rgba(0, 0, 0, 0.61); 
+    background: rgba(0, 0, 0, 0.61);
+
 }
 
 .nav .navbar-transparente{
@@ -203,20 +205,57 @@ h1{
 
 }
 
+.row-cols-md-3>* {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.1);
+    margin-bottom: calc(var(--bs-gutter-x) * .5);
 
+}
+
+.g-3, .gy-3 {
+    --bs-gutter-y: 1rem;
+}
+
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+
+.btn-outline-primary{
+
+    position: relative;
+
+
+}
+
+.rep a:hover{
+
+    background: rgba(0, 0, 0, 1.0);
+
+}
 
 /********************************************************************CONTATO******************************************************************/
 
 .container-md{
-width: 100%;
-padding: 25px;
+    width: 100px;
+    padding: 20px;
+}
+
+.bg-info{
+    position: relative;
+    left: -28px;
 }
 
 .mb{
     padding: 20px;
 }
-
-/**********************************************************************RODAPE********************************************************************/
 
 .contact{
 
