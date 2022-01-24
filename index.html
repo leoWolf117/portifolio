@@ -2,14 +2,10 @@
     <head>
         
         <meta charset='utf-8'>
-        
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        
         <title>portifolio</title>
-        
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <!--Bootstrap CSS -->
-
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -87,14 +83,10 @@
 
     <section class="d-flex" style="padding: 25px;">
       <div class="container align-self-center present">
-        <div class="row">
-          <div class="col-md-7 imagem">
-            <img src="imagens/eu.jpg" width="650px" class="img-fluid d-none d-md-block" style="border-radius: 10px;">
-          </div>
-
-           <div class="col-md-5 sobre">
-            <h1 class="">Sobre mim</h1>
-            <span class="">
+        <div class="row row_resumo">
+          <div class="col-md-12 sobre">
+            <h1 class="resumo_texto">Sobre mim</h1>
+            <span class="resumo_texto">
             Saudações Viajante,
             <br>
             Me chamo Leonardo, filho de Dalmo e Luciana, nascido e criado em São Paulo,
@@ -104,15 +96,19 @@
             Sempre estou estudando, procurando estar mais especializado, buscando cursos, lendo artigos,
             participando de palestras dos mebros da comunidade do Nerdzão, que me proporcionou a chance de conhecer pessoas incríveis que me encorajam a seguir carreira como desenvolvedor.                    
             </span>
+            <br><br>
+            <span class="resumo_texto">
+             lore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsu
+             lore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsulore ipsu 
+            </span>
 
-            <div class="" style="text-align: center;">
-              <a href =""><i class= "fab fa-facebook-square"></i></a>
+            <div class="icones_resumo" style="text-align: center;">
+              <a href =""><i class= "fab fa-facebook"></i></a>
               <a href =""><i class= "fab fa-instagram"></i></a>
               <a href =""><i class= "fab fa-github-square"></i></a>
               <a href=""><i class="fab fa-linkedin"></i></a>
             </div>
-
-            </div>
+          </div>
            </div>
       </div>     
     </section>
@@ -124,31 +120,41 @@
     <div id="pag-1" class="page_one " style="margin-left: 15px" style="margin-top: 30px">
       <h2 class="heading">Educações</h2>
       <div class="resume-wrap d-flex">
-        <div class="icon-trofeu" style="align-self: center"><img class="trofeu" src="imagens/trofeu.png" width="55px" height="55px"></div>
+        <div class="icon-trofeu d-none d-md-block" style="align-self: center"><img class="trofeu" src="imagens/trofeu.png" width="55px" height="55px"></div>
           <div class="text pl-3">
             <span class="data">2015 - 2018</span>
             <h2>Bacharelado em Ciência da Computação</h2>
-            <span class="position">Universidade Nove de Julho</span>
+            <span class="plataforma">Universidade Nove de Julho</span>
             <span class="float-right font-italic">São Paulo</span>
       </div>
     </div>
 
     <div class="resume-wrap d-flex">
-      <div class="icon-trofeu" style="align-self: center"><img class="trofeu" src="imagens/trofeu.png" width="55px" height="55px"></div>
+      <div class="icon-trofeu d-none d-md-block" style="align-self: center"><img class="trofeu" src="imagens/trofeu.png" width="55px" height="55px"></div>
         <div class="text pl-3">
           <span class="data">2017 - 2018</span>
           <h2>Desenvolvimento Web Completo 2020</h2>
-          <span class="position">Plataforma Udemy</span>
+          <span class=" plataforma">Plataforma Udemy</span>
           <span class="float-right font-italic">São Paulo</span>
         </div>
       </div>
 
       <div class="resume-wrap d-flex">
-        <div class="icon-trofeu" style="align-self: center"><img class="trofeu" src="imagens/trofeu.png" width="55px" height="55px"></div>
+        <div class="icon-trofeu d-none d-md-block" style="align-self: center"><img class="trofeu" src="imagens/trofeu.png" width="55px" height="55px"></div>
          <div class="text pl-3">
            <span class="data">2018 - 2018</span>
            <h2>Git Completo: do Básico ao Avançado</h2>
-           <span class="position">Plataforma Udemy</span>
+           <span class="plataforma">Plataforma Udemy</span>
+           <span class="float-right font-italic">São Paulo</span>
+        </div>
+      </div>
+
+      <div class="resume-wrap d-flex">
+        <div class="icon-trofeu d-none d-md-block" style="align-self: center"><img class="trofeu" src="imagens/trofeu.png" width="55px" height="55px"></div>
+         <div class="text pl-3">
+           <span class="data">2020 - 2021</span>
+           <h2>Curso Saga: Curso de Photoshop </h2>
+           <span class="plataforma">Curso Saga</span>
            <span class="float-right font-italic">São Paulo</span>
         </div>
       </div>
@@ -157,45 +163,43 @@
     <section id="pag-2" class="page_two">
       <h2 class="heading">Experiências</h2>
       <div class="resume-wrap d-flex">
-        <div class="icon-trofeu" style="margin: 35px;"><img class="trofeu" src="imagens/trofeu.png" width="55px" height="55px"></div>
+       
           <div class="text pl-3">
              <span class="data">04/2019 - Atualmente</span>
              <h2>Suporte TI</h2>
               <span class="position" style="margin-top: 10px; margin-bottom: 10px;">Sergio K</span>
               <ul>
-                <li>
-                  <span class="">
-                    Faço manutenção dos computadores, tanto em loja quanto escritorio, troca de peças, limpeza (sistema, e hardware);
+                <li class="trablho_desc">
+                  <span>
+                    Realizo manutenção dos computadores, tanto em loja quanto escritorio, troca de peças, limpeza (sistema, e hardware);
                   </span>
                 </li>
-                <li>
-                  <span>
+                <li class="trablho_desc">
+                  <span >
                     Forneço assistencia aos sistemas ERP, UX, OmniPOS da empresa LINX
                     Insiro regras de inposto para emissões de nota, para transferencia, faturamento para dentro e fora do estado
                     verifico a sincronização entre os três sistemas;
-                  </span>
+                  </span class="trablho_desc">
                 </li>
-                <li>
-                  <span class="">
+                <li class="trablho_desc">
+                  <span>
                     Analiso com a contabilidade as notas emitidas (saida e entrada) das filiais para que possa ser feito
                     o fechamento do imposto mensalmente;
                   </span> 
                 </li>
-                <li>
-                  <span class="">
+                <li class="trablho_desc">
                     Assistencia com o sistema CONTROL ID (folha de ponto), arrumando layout para o relatorio do banco de horas
                     cadastro de horario, ativação e desativação de funcionario;
-                  </span>
+                  </span> 
                 </li>
               </ul>
             </div>
-          </div>
         </section>
 
-  <section id="pag-3" class="page_three">
+  <section id="pag-3" >
 
     <div class="row">
-      <div class="col-md-6" style="position: relative; left:55px; ">
+      <div class="col-md-6" style="position: relative; left:10px; ">
         <div class="skills">
           <div class="skill-name">HTML</div>
             <div class="skill-bar">
@@ -217,16 +221,16 @@
             </div>
         </div>
 
-        <div class="skills">
-            <div class="skill-name"> Adobe Premier</div>
-              <div class="skill-bar">
-            <div class="skill-per" per="55"></div>
-          </div>
+       <div class="skills">
+          <div class="skill-name">Adobe Ilustrator</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="40"></div>
+            </div>
         </div>
       </div>
 
 
-      <div class="col-md-6 skill-2" style="position: relative; left:55px;">
+      <div class="col-md-6 skill-2" style="position: relative; left:10px;">
 
         <div class="skills">
           <div class="skill-name">Nodejs</div>
@@ -258,94 +262,46 @@
         </div> 
   </section> 
 
-        <!--conteudo 4-->
 
-
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <div class="card card1" style="width: 20rem;">
-              <img src="imagens/finanças.png"  class="card-img-top img-fluid" alt="..." style="width: 20rem; border: 2px solid black;">
-              <div class="card-body">
-                <h5 class="card-title">Projeto Finanças</h5>
-                <p class="card-text">Utilizando HTML, CSS, Bootstrap</p>                     
-              </div>
-            </div> 
-          </div>     
-
-          <div class="col">  
-            <div class="card" style="width: 20rem;">
-              <img src="imagens/spotify.png" class="card-img-top img-fluid " alt="..." style="width: 20rem; border: 2px solid black;">
-              <div class="card-body">
-                <h5 class="card-title">Spotify</h5>
-                <p class="card-text">Utilizando HTML e CSS.</p>
-              </div>
-            </div>
+  <section class="portifolio">     
+      <div class="container container_portifolio">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="" class="link_projeto"><img src="imagens/finanças.png" class="img_projeto" width="495px"></a>
           </div>
-
-          <div class="col">    
-            <div class="card" style="width: 20rem;">
-              <img src="imagens/reator.jpg" class="card-img-top img-fluid" alt="..." style="width: 20rem; border: 2px solid black;">
-              <div class="card-body">
-                <h5 class="card-title">Reator Arc</h5>
-                <p class="card-text">animação em CSS do reator arc do Homem de Ferro</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>    
-
-          <!--conteudo 5-->
-
-
-    <div class="container contato">
-      <div class="row bg-info contact">
-
-        <div class="col-md-4 cont .d-none">
-
-          <div class="cont-numb">
-            <i class="fas fa-phone"></i>
-            <h5>Número para contato</h5>
-            <span>(11) 95409-1698</span>
-          </div>
-          <div class="cont-email">
-            <i class="far fa-envelope"></i>
-            <h5>Email para contato</h5>
-            <span class="">leowolf083@gmail.com</span>
-            </div>
-          </div>
-
-          <div class="col-lg-8 cont-mail">
-            <h1>Entre em contato</h1>
-            <form class="form" method="POST" accept="">
-
-              <div class="mb-3">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="digite seu email">
-              </div>
-
-              <div class="mb-3">
-                <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Sobre">
-              </div>
-
-              <div class="mb-3">
-               <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-              </div>
-
-              <input class="field" type="submit" value="Enviar">
-
-            </form>
-
+           <div class="col-md-6">
+            <a href="" class="link_projeto"><img src="imagens/finanças.png" class="img_projeto" width="495px"></a>
           </div>
         </div>
-      </div>
+      </div> 
+       <div class="container container_portifolio">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="" class="link_projeto"><img src="imagens/finanças.png" class="img_projeto" width="495px"></a>
+          </div>
+           <div class="col-md-6">
+            <a href="" class="link_projeto"><img src="imagens/finanças.png" class="img_projeto" width="495px"></a>
+          </div>
+        </div>
+      </div> 
+  </section>
 
 
-  <footer>
+
+  <div class="container">
 
 
+
+  </div>
+
+
+  <footer class="rodape">
+    
+    <div class="container container-rodape">
+
+
+    
+    </div>
 
   </footer>
 
