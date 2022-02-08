@@ -263,6 +263,8 @@ h1{
 
 /***************************************************************PROJETOS***********************************************************************/
 
+.projetos{
+}
 
 .projetos{
 
@@ -271,15 +273,20 @@ h1{
 
 .container_projetos{
     
-    justify-items: center;    
+    justify-items: center; 
+    row-gap: 2rem;
+    border: 1px solid; 
+    
 
 }
 
 
 .projetos_img{
+
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
+    
 }
 
 .projetos_data{
