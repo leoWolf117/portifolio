@@ -299,7 +299,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(204, 75, 44, .7);
+    background: rgba(48, 39, 173, 0.7);
     border-radius: .5em;
     transition: .3s;
 }
